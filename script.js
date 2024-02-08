@@ -32,8 +32,9 @@ map.on('load', () => {
     }
     ]
     }
-    });
-
+    }
+    )
+    })
     // Add a data source from a GeoJSON file
     map.addSource('buildings-data', {
         type: 'geojson',
@@ -49,5 +50,4 @@ map.on('load', () => {
     'circle-radius': 6,
     'circle-color': '#B42222'
     }
-    });
     });
